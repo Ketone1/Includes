@@ -292,4 +292,6 @@ if not getgenv().MTAPIMutex then
            end
            l()
            getgenv().MTAPIMutex = true
+           game.Players.LocalPlayer.Character.Humanoid:AddPropertyEmulator("WalkSpeed")
+           game.Players.LocalPlayer.Character.Humanoid:AddPropertyEmulator("JumpPower")
         end
