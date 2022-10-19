@@ -295,3 +295,5 @@ if not getgenv().MTAPIMutex then
            game.Players.LocalPlayer.Character.Humanoid:AddPropertyEmulator("WalkSpeed")
            game.Players.LocalPlayer.Character.Humanoid:AddPropertyEmulator("JumpPower")
         end
+        game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 35
